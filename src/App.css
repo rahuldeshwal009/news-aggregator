@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.search-bar {
+  margin: 20px;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 8px;
+  margin: 5px;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.article {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.article h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.article p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.article a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .articles {
+    grid-template-columns: 1fr;
+  }
+
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.search-btn:hover {
+  background-color: rgb(150, 148, 147);
+  color: white;
+}

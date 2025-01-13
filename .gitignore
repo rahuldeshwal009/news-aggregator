@@ -1,0 +1,7 @@
+node_modules/
+
+# IDE config
+.vscode/*
+
+# production
+build/
