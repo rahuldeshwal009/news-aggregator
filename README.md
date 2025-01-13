@@ -19,4 +19,6 @@ yarn dev
 4. Access the Application -> [http://localhost:8080](http://localhost:8080)
 
 ## App Preview
+app preview url - https://rahuldeshwal009.github.io/news-aggregator/
+##### Switch to a light theme if you have trouble reading the app's text.
 <img width="1723" alt="image" src="https://github.com/user-attachments/assets/377f2207-9ebc-4a9f-aef4-3125aa55ae81" />
